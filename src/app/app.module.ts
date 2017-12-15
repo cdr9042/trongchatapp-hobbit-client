@@ -7,7 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { SocketIoModule, SocketIoConfig } from 'ng-socket-io';
-const config: SocketIoConfig = { url: 'http://192.168.1.42:3001', options: {} };
+const config: SocketIoConfig = { url: 'http://https://trongchatapp-hobbit.herokuapp.com/', options: {} };
  
 @NgModule({
   declarations: [
